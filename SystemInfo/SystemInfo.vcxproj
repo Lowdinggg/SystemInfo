@@ -151,10 +151,12 @@
   <ItemGroup>
     <ClCompile Include="CPUInfo.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="MemInfo.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="common.h" />
     <ClInclude Include="CPUInfo.h" />
+    <ClInclude Include="MemInfo.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
